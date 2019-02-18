@@ -36,22 +36,22 @@ Just click on button get your Twitter Access Token and Twitter Secret.
 -You can directly access multidimensional array of your Twitter posts using following method.
 Each post has Following components you can get to:
 <ul>
-	<li> <strong>name</strong> ( the name of the Twitter account )</li>
-   <li> **screen_name** ( the screen name of the Twitter account )</li>
-   <li> **text** ( Twitter text )</li>
-   <li> **profile_image_url**( Profile picture of your Twitter )</li>
-   <li> **url** ( the Twitter url )</li>
-   <li> **image_url** ( Twitter media image url )</li>
-   <li> **retweet_count**  (Total number of retweet count  )</li>
-   <li> **favorite_count** (Total number of likes the post recieved )</li>
-   <li> **created_at**     ( The tweet post time )</li>
-   <li> **retweet_link** (The retweet link on site )</li>
-   <li> **favorite_link** (  favorite link )</li>
+   <li> <strong>name</strong> ( the name of the Twitter account )</li>
+   <li> <strong>screen_name</strong> ( the screen name of the Twitter account )</li>
+   <li> <strong>text</strong> ( Twitter text )</li>
+   <li> <strong>profile_image_url</strong>( Profile picture of your Twitter )</li>
+   <li> <strong>url</strong> ( the Twitter url )</li>
+   <li> <strong>image_url</strong> ( Twitter media image url )</li>
+   <li> <strong>retweet_count</strong>  (Total number of retweet count  )</li>
+   <li> <strong>favorite_count</strong> (Total number of likes the post recieved )</li>
+   <li> <strong>created_at</strong>     ( The tweet post time )</li>
+   <li> <strong>retweet_link</strong> (The retweet link on site )</li>
+   <li> <strong>favorite_link</strong> (  favorite link )</li>
 </ul>
 
 Example:
 ```
-{% for tweet in craft.ssTwitterFeed.displayPost() %}
+{% for tweet in craft.ssTwitterFeed.displayPost( '5' ) %}
 	{{ tweet.url }}
 	{{ tweet.screen_name }}
 	{{ tweet.text }}
@@ -64,13 +64,18 @@ Example:
 
 **BENEFITS:**
 <ul>
-    <li>:one: Hassle-free and Simple setup( No need to create Twitter App).</li>
-    <li>:two: Number of tweets to show.</li>
-    <li>:three: Increment social commitment among you and your clients.</li>
-    <li>:four: Show your Twitter content your way to perfectly match your website style.</li>
-    <li>:five: The Plugib is updated consistently with new features, bug-fixes and Twitter API changes.</li>
-    <li>:six: Support is speedy, effective and powerful.</li>
+    <li> Hassle-free and Simple setup( No need to create Twitter App).</li>
+    <li> Limit number of tweets to show.</li>
+    <li> Increment social commitment among you and your clients.</li>
+    <li> Show your Twitter content your way to perfectly match your website style.</li>
+    <li> The Plugib is updated consistently with new features, bug-fixes and Twitter API changes.</li>
+    <li> Support is speedy, effective and powerful.</li>
 </ul>
-* Release it
+
+### License
+
+This DOMPDF Wrapper for Laravel is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+
+### Release it
 
 Brought to you by [SystemSeeders](http://www.systemseeders.com/)
