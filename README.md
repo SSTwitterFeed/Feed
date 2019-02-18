@@ -44,4 +44,16 @@ class asda extends sdadad
 :eleven:
 :seven::zero:
 
+```
+	{% for tweet in craft.ssTwitterFeed.displayPost() %}
+    	{{ tweet.url }}
+    	{{ tweet.screen_name }}
+    	{{ tweet.text }}
+    	{{ tweet.created_at }}
+    	{{ tweet.retweet_count }}
+    	{{ tweet.favorite_count }}
+	{% endfor %}
+```
+
+
 
