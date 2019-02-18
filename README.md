@@ -63,14 +63,14 @@ Example:
 ## SS Twitter Feed Roadmap
 
 **BENEFITS:**
-
-:one: Hassle-free and Simple setup( No need to create Twitter App).
-:two: Number of tweets to show.
-:three: Increment social commitment among you and your clients.
-:four: Show your Twitter content your way to perfectly match your website style.
-:five: The Plugib is updated consistently with new features, bug-fixes and Twitter API changes.
-:six: Support is speedy, effective and powerful.
-
+<ul>
+    <li>:one: Hassle-free and Simple setup( No need to create Twitter App).</li>
+    <li>:two: Number of tweets to show.</li>
+    <li>:three: Increment social commitment among you and your clients.</li>
+    <li>:four: Show your Twitter content your way to perfectly match your website style.</li>
+    <li>:five: The Plugib is updated consistently with new features, bug-fixes and Twitter API changes.</li>
+    <li>:six: Support is speedy, effective and powerful.</li>
+</ul>
 * Release it
 
 Brought to you by [SystemSeeders](http://www.systemseeders.com/)
