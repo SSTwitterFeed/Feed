@@ -2,7 +2,7 @@
 
 -** hfhhz **
 
-## :rocket : Installation
+## :rocket: Installation
 
 `composer.json`
 
