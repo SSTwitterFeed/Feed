@@ -1,8 +1,7 @@
 # SS Twitter Feed plugin for Craft CMS 3.x
 
-Show Recent tweets timeline on websites.
+Show Recent twitter timeline on your site. 
 
-![Screenshot](resources/img/plugin-logo.png)
 
 ## Requirements
 
@@ -24,42 +23,42 @@ To install the plugin, follow these instructions.
 
 ## SS Twitter Feed Overview
 
--A plugin for Craft CMS that allows you to retrieve your Twitter timeline.
-You can add multiple Twitter feeds into single page using shortcodes.-
+A plugin for Craft CMS that allows you to retrive your Twitter timeline.
 
 ## Configuring SS Twitter Feed
 
--Once you’ve installed the SS-Twitter-Feed plugin. 
+Once you’ve installed the SS Twitter Feed plugin. 
 Go to plugin settings to connect to twitter.
-Just click on button get your Twitter Access Token and Twitter Secret.-
+Just click on button get your Twitter Access Token and Twitter Secret.
 
 ## Using SS Twitter Feed
 
 -You can directly access multidimensional array of your Twitter posts using following method.
 Each post has Following components you can get to:
-
-:one: **name** ( the name of the Twitter account )
-:two: **screen_name** ( the screen name of the Twitter account )
-:three: **text** ( Twitter text )
-:four: **profile_image_url**( Profile picture of your Twitter )
-:five: **url** ( the Twitter url )
-:six: **image_url** ( Twitter media image url )
-:seven: **retweet_count**  (Total number of retweet count  )
-:eight: **favorite_count** (Total number of likes the post recieved )
-:nine: **created_at**     ( The tweet post time )
-:ten: **retweet_link** (The retweet link on site )
-:eleven: **favorite_link** (  favorite link )
+<ul>
+   <li> **name** ( the name of the Twitter account )</li>
+   <li> **screen_name** ( the screen name of the Twitter account )</li>
+   <li> **text** ( Twitter text )</li>
+   <li> **profile_image_url**( Profile picture of your Twitter )</li>
+   <li> **url** ( the Twitter url )</li>
+   <li> **image_url** ( Twitter media image url )</li>
+   <li> **retweet_count**  (Total number of retweet count  )</li>
+   <li> **favorite_count** (Total number of likes the post recieved )</li>
+   <li> **created_at**     ( The tweet post time )</li>
+   <li> **retweet_link** (The retweet link on site )</li>
+   <li> **favorite_link** (  favorite link )</li>
+</ul>
 
 Example:
 ```
-	{% for tweet in craft.ssTwitterFeed.displayPost() %}
-    	{{ tweet.url }}
-    	{{ tweet.screen_name }}
-    	{{ tweet.text }}
-    	{{ tweet.created_at }}
-    	{{ tweet.retweet_count }}
-    	{{ tweet.favorite_count }}
-	{% endfor %}
+{% for tweet in craft.ssTwitterFeed.displayPost() %}
+	{{ tweet.url }}
+	{{ tweet.screen_name }}
+	{{ tweet.text }}
+	{{ tweet.created_at }}
+	{{ tweet.retweet_count }}
+	{{ tweet.favorite_count }}
+{% endfor %}
 ```
 ## SS Twitter Feed Roadmap
 
