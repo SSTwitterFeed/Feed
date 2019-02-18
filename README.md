@@ -36,7 +36,7 @@ Just click on button get your Twitter Access Token and Twitter Secret.
 -You can directly access multidimensional array of your Twitter posts using following method.
 Each post has Following components you can get to:
 <ul>
-   <li> **name** ( the name of the Twitter account )</li>
+	<li> <strong>name</strong> ( the name of the Twitter account )</li>
    <li> **screen_name** ( the screen name of the Twitter account )</li>
    <li> **text** ( Twitter text )</li>
    <li> **profile_image_url**( Profile picture of your Twitter )</li>
