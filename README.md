@@ -30,6 +30,7 @@ A plugin for Craft CMS that allows you to retrive your Twitter timeline.
 Once you’ve installed the SS Twitter Feed plugin. 
 Go to plugin settings to connect to twitter.
 Just click on button get your Twitter Access Token and Twitter Secret.
+Now You can retrive multiple media images
 
 ## Using SS Twitter Feed
 
